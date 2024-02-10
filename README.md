@@ -1,2 +1,2 @@
 # Projet-SNT
-Ligne de code du projet, classées en dossier.
+Lignes de code du projet, classées en dossier.
