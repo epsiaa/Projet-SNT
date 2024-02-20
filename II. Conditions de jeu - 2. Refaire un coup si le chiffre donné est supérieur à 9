@@ -1,0 +1,2 @@
+def check_tie(board):
+  return ' ' not in board
