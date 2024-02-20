@@ -1,0 +1,16 @@
+def main():
+  board = [' '] * 9
+  score_X = 0
+  score_O = 0
+
+  while score_X < 3 and score_O < 3:
+      current_player = 'X'
+      winner = None
+
+      while not winner and not check_tie(board):
+          display_board(board)
+          move = int(input("Enter position for " + current_player + ": "))
+          while board[move] != ' ':
+              move = int(input("Position already taken. Enter new position: "))
+
+          board[move] = current_player
